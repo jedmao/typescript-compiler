@@ -24,9 +24,14 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="lib\" />
+    <Folder Include="test\" />
+    <Folder Include="test\lib\" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Gruntfile.js" />
     <Compile Include="lib\app.js" />
+    <Compile Include="test\lib\app.js" />
+    <Compile Include="test\sinon-chai.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsTools.targets" />

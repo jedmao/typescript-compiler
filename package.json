@@ -28,5 +28,13 @@
   "dependencies": {
     "typescript": "~0.9.5"
   },
-  "readmeFilename": "README.md"
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "chai": "~1.8.1",
+    "grunt": "~0.4.2",
+    "grunt-mocha-test": "~0.8.1",
+    "mocha": "~1.16.2",
+    "sinon": "~1.7.3",
+    "sinon-chai": "~2.4.0"
+  }
 }
