@@ -2,7 +2,7 @@
   "name": "typescript-compiler",
   "version": "0.9.5",
   "description": "Typescript compiler wrapper",
-  "main": "main.js",
+  "main": "lib/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
