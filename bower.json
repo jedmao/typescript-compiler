@@ -1,0 +1,12 @@
+{
+  "name": "typescript-compiler",
+  "version": "0.9.5-dev",
+  "dependencies": {
+    "dt-node": "https://github.com/jedhunsaker/dt-node.git"
+  },
+  "devDependencies": {
+    "dt-mocha": "~1.9.0",
+    "dt-sinon": "~1.5.0",
+    "dt-sinon-chai": "~2.4.0"
+  }
+}

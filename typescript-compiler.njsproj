@@ -6,7 +6,7 @@
     <ProjectGuid>{81a26e66-b407-400a-9bef-f5c987ee325d}</ProjectGuid>
     <ProjectHome />
     <ProjectView>ProjectFiles</ProjectView>
-    <StartupFile>lib/tsc.js</StartupFile>
+    <StartupFile>lib/app.js</StartupFile>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
@@ -16,12 +16,17 @@
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
   <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
   <ItemGroup>
+    <Content Include=".bowerrc" />
     <Content Include=".editorconfig" />
     <Content Include=".gitattributes" />
     <Content Include=".gitignore" />
+    <Content Include="bower.json" />
+    <Content Include="lib\tsc.ts" />
     <Content Include="LICENSE" />
     <Content Include="package.json" />
     <Content Include="README.md" />
+    <Content Include="test\lib\tsc.ts" />
+    <Content Include="test\sinon-chai.ts" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="lib\" />
@@ -30,9 +35,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Gruntfile.js" />
-    <Compile Include="lib\tsc.js" />
-    <Compile Include="test\lib\tsc.js" />
-    <Compile Include="test\sinon-chai.js" />
+    <Compile Include="lib\app.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsTools.targets" />
