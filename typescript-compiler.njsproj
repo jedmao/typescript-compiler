@@ -31,7 +31,7 @@
   <ItemGroup>
     <Compile Include="Gruntfile.js" />
     <Compile Include="lib\tsc.js" />
-    <Compile Include="test\lib\app.js" />
+    <Compile Include="test\lib\tsc.js" />
     <Compile Include="test\sinon-chai.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
